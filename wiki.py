@@ -1,6 +1,6 @@
 def binaryToDecimal():
     
-    num = int(input("Enter a decimal number between 0 and 15 :) "))
+    num = int(input("Please enter a number from 1-15 "))
     
   
     if num == 0:
@@ -36,7 +36,7 @@ def binaryToDecimal():
     elif num == 15:
         print("1111")
     else:
-        print("Please enter a number between 0 and 15!:)")
+        print("Only pick from 1-15, nothing higher!")
 
 
 binaryToDecimal()
